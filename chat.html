@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/072e03b794.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700&display=swap&subset=korean"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>KaKao Clone by Michael</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__column">
+        <span class="timestamp">13:53</span>
+        <i class="fas fa-comment"></i>
+      </div>
+      <div class="header__column">
+        <span class="clock"><i class="fas fa-clock"></i></span>
+        <span class="volume"><i class="fas fa-volume-mute"></i></span>
+        <span class="wifi"><i class="fas fa-wifi"></i></span>
+        <span class="ban"><i class="fas fa-ban"></i></span>
+        <span class="battery-level">77%</span>
+        <span class="batter-level-pic"
+          ><i class="fas fa-battery-three-quarters"></i
+        ></span>
+      </div>
+    </header>
+    <div class="chat__main">
+      <div class="chat__top">
+        <div class="chat__top__column">
+          <span class="arrow">
+            <a href="./chats.html"><i class="fas fa-arrow-left"></i></a>
+          </span>
+          <span class="friend-name">Steve Jobs</span>
+        </div>
+        <div class="chat__top__column">
+          <a href="./find.html"><i class="fas fa-search"></i></a>
+          <a href="./index.html"><i class="fas fa-bars"></i></a>
+        </div>
+      </div>
+      <div class="chat__date">
+        <span class="date">
+          Wednesday, October 9, 2019
+        </span>
+      </div>
+      <div class="incoming-message">
+        <span class="incoming-avatar">
+          <img src="./images/steve.jpeg" alt="incoming-avatar"
+        /></span>
+        <div class="texts">
+          <span class="name">
+            Steve Jobs
+          </span>
+          <span class="message">
+            <span class="content">애플 입사 하실래요?</span>
+            <span class="timestamp">15:19</span>
+          </span>
+        </div>
+      </div>
+      <div class="sent-message">
+        <span class="timestamp">15:22</span>
+        <div class="texts">
+          <span class="message">
+            제발 부탁좀 드릴게요ㅠㅠ
+          </span>
+        </div>
+      </div>
+      <div class="incoming-message">
+        <span class="incoming-avatar">
+          <img src="./images/steve.jpeg" alt="incoming-avatar"
+        /></span>
+        <div class="texts">
+          <span class="name">
+            Steve Jobs
+          </span>
+          <span class="message">
+              <span class="content">좋아요~</span>
+              <span class="timestamp">15:23</span>
+            </span>
+      </div>
+    </div>
+    <div class="message-box">
+      <div class="message-box__column">
+        <i class="far fa-plus-square"></i>
+      </div>
+
+      <div class="message-box__column">
+        <input
+          type="text"
+          name="input-box"
+          id="input-box"
+          placeholder="send message.."
+        />
+      </div>
+
+      <div class="message-box__column">
+        <i class="far fa-grin-squint"> </i>
+        <i class="fas fa-microphone"></i>
+      </div>
+    </div>
+  </body>
+</html>
