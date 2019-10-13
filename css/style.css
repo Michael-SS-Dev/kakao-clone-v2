@@ -1,0 +1,35 @@
+@import url("./chat.css");
+@import url("./chats.css");
+@import url("./find.css");
+@import url("./index.css");
+@import url("./more.css");
+@import url("./settings.css");
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  box-sizing: border-box;
+  background-color: white;
+  height: 1500px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: #020202;
+  opacity: 0.7;
+  margin: 2px 25px;
+}
+.header .battery-level {
+  margin: 0 2px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.navigation-bar {
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}
