@@ -1,0 +1,113 @@
+.chat__main {
+  background-color: #36abd6;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+  height: 100%;
+}
+.chat__top {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 20px 0;
+  border-bottom: 1px solid #f3f3f3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.chat__top .friend-name {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.chat__top .arrow {
+  font-size: 20px;
+}
+.chat__top__column:last-child {
+  margin-right: 15px;
+  padding-top: 2px;
+}
+.chat__top__column:last-child a {
+  font-size: 20px;
+  margin: 0 10px;
+}
+.message-box {
+  position: fixed;
+  bottom: 40px;
+  left: 10%;
+  right: 19%;
+  width: 80%;
+  height: 40px;
+  display: flex;
+  font-size: 20px;
+  padding: 0 20px;
+  margin-right: 10%;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  border: none;
+  border-radius: 10px;
+}
+
+.message-box input {
+  border: none;
+  font-size: 16px;
+  background-color: inherit;
+  padding-bottom: 7px;
+  min-width: 350px;
+}
+.message-box i {
+  opacity: 0.7;
+}
+
+.chat__date {
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+.incoming-message {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.incoming-avatar img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.incoming-message .name {
+  opacity: 0.8;
+  margin-left: 15px;
+  padding-bottom: 5px;
+}
+.incoming-message .message {
+  padding-top: 5px;
+  display: block;
+}
+.incoming-message .message .content {
+  margin-left: 15px;
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+.incoming-message .timestamp {
+  margin-left: 10px;
+  display: inline-block;
+  font-size: 12px;
+  opacity: 0.8;
+}
+.sent-message .timestamp {
+  display: inline-block;
+  font-size: 12px;
+  opacity: 0.8;
+}
+.sent-message .texts {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #ffeb35;
+}
+.sent-message {
+  text-align: right;
+  margin-right: 20px;
+}
