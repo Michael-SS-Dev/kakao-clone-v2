@@ -33,3 +33,18 @@ a {
   justify-content: space-around;
   font-size: 30px;
 }
+.navigation-bar .message {
+  position: relative;
+}
+.navigation-bar .chat-count {
+  position: absolute;
+  color: white;
+  background-color: red;
+  text-align: center;
+  width: 20px;
+  font-size: 12px;
+  top: 10%;
+  right: -10px;
+  border-radius: 50%;
+  font-weight: bold;
+}
