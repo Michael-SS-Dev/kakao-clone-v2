@@ -1,0 +1,74 @@
+.chats__top {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 20px 0;
+  border-bottom: 1px solid #f3f3f3;
+  padding-bottom: 10px;
+}
+.chats__top .title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.chats__top__column:last-child {
+  margin-right: 15px;
+}
+.chats__top__column:last-child a {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.chats__chats__chat {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  border-bottom: 1px solid #f3f3f3;
+  margin: 20px 0;
+  padding-bottom: 10px;
+}
+
+.chats__chats__chat img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+  margin-left: 20px;
+}
+.chats__chats__chat__column {
+  display: flex;
+  align-content: center;
+}
+.chats__chats__chat .friend-name {
+  margin-top: 2px;
+  margin-left: 20px;
+  font-size: 14px;
+  display: block;
+}
+.chats__chats__chat .chat-content {
+  font-size: 12px;
+  margin-left: 20px;
+  opacity: 0.7;
+}
+.chats__chats__chat .chat-status {
+  font-size: 12px;
+  padding: 5px;
+  display: block;
+  height: 15px;
+  margin-right: 10px;
+}
+.chats__chats__chat .timestamp {
+  font-size: 14px;
+  margin-left: 7px;
+  opacity: 0.8;
+}
+.chats__chats__chat .chat-count {
+  display: block;
+  color: white;
+  background-color: red;
+  width: 20px;
+  text-align: center;
+  margin-top: 7px;
+  margin-left: 24px;
+  border-radius: 50%;
+  font-weight: bold;
+}
